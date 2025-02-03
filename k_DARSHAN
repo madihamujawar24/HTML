@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolhapur Darshan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #33ffa0;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #33ffa0;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .box {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .box img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .box:hover {
+      transform: scale(1.05);
+    }
+    .box h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+    .box p {
+      margin: 0 10px 15px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kolhapur Darshan</h1>
+    <p>Your guide to exploring Kolhapur</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#rankala">Rankala Lake</a></li>
+      <li><a href="#mahalaxmi">Mahalaxmi Temple</a></li>
+      <li><a href="#shahu">Shahu Palace</a></li>
+      <li><a href="#panhala">Panhala Fort</a></li>
+      <li><a href="#shopping">Shopping Street</a></li>
+      <li><a href="#jyotiba">Jotiba Temple</a></li>
+      <li><a href="#waterpark">Waterpark</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="box" id="rankala">
+      <img src="Rankala_Lake.jpg" alt="Rankala Lake">
+      <h3>Rankala Lake</h3>
+      <p>A serene lake with a beautiful garden and boating facilities.</p>
+      <button>Click Me</button>
+    </div>
+    <div class="box" id="mahalaxmi">
+      <img src="mahalaxmi_temple.jpg" alt="Mahalaxmi Temple">
+      <h3>Mahalaxmi Temple</h3>
+      <p>An iconic temple dedicated to Goddess Mahalaxmi, a must-visit for devotees.</p>
+      <button>Click Me</button>
+    </div>
+    <div class="box" id="shahu">
+      <img src="shahu_palace.jpg" alt="Shahu Palace">
+      <h3>Shahu Palace</h3>
+      <p>A historic palace showcasing the rich Maratha heritage.</p>
+      <button>Click Me</button>
+    </div>
+    <div class="box" id="panhala">
+      <img src="panha_fort.jpg" alt="Panhala Fort">
+      <h3>Panhala Fort</h3>
+      <p>A majestic fort with breathtaking views and historical significance.</p>
+      <button>Click Me</button>
+    </div>
+    <div class="box" id="shopping">
+      <img src="shopping.jpeg" alt="Shopping Street">
+      <h3>Shopping Street</h3>
+      <p>A vibrant market with local crafts, clothes, and Kolhapuri chappals.</p>
+      <button>Click Me</button>
+    </div>
+    <div class="box" id="jyotiba">
+      <img src="jyotiba_temple.jpg" alt="Jotiba Temple">
+      <h3>Jotiba Temple</h3>
+      <p>A revered temple located on a hilltop with scenic surroundings.</p>
+      <button>Click Me</button>
+    </div>
+    <div class="box" id="waterpark">
+      <img src="waterpark.jpg" alt="Waterpark">
+      <h3>Waterpark</h3>
+      <p>A fun-filled destination for families with slides and pools.</p>
+      <button>Click Me</button>
+    </div>
+  </div>
+</body>
+</html>
